@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceScreen
+        android:key="time_repeat"
+        android:title="Repeat"
+        android:summary="Select days">
+
+        <CheckBoxPreference
+            android:key="@string/day_Monday"
+            android:title="@string/day_Monday"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/day_Thursday"
+            android:title="@string/day_Thursday"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/day_Tuesday"
+            android:title="@string/day_Tuesday"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/day_Thursday"
+            android:title="@string/day_Thursday"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/day_Friday"
+            android:title="@string/day_Friday"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/day_Saturday"
+            android:title="@string/day_Saturday"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/day_Sunday"
+            android:title="@string/day_Sunday"
+            android:defaultValue="false"/>
+    </PreferenceScreen>
+
+</PreferenceScreen>

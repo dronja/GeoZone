@@ -4,18 +4,19 @@
     <string name="pref_header_position">Position</string>
 
     <string name="pref_position_set">Enter position</string>
+    <string name="pref_position_set_def">Enter latitude and longitude</string>
     <string name="pref_position_get">Get current position</string>
 
     <string name="pref_position_distance">Distance</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
     <string-array name="pref_position_distance_values">
         <item>100</item>
-        <item>200</item>
-        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="pref_position_distance_Names">
+        <item>About 100m</item>
+        <item>About 500m</item>
+        <item>More than 1km</item>
     </string-array>
 
     <!-- Example settings for Data & Sync -->
@@ -29,6 +30,15 @@
         <item>6 hours</item>
         <item>Never</item>
     </string-array>
+
+    <string name="day_Monday">Monday</string>
+    <string name="day_Tuesday">Tuesday</string>
+    <string name="day_Wednesday">Wednesday</string>
+    <string name="day_Thursday">Thursday</string>
+    <string name="day_Friday">Friday</string>
+    <string name="day_Saturday">Saturday</string>
+    <string name="day_Sunday">Sunday</string>
+
     <string-array name="pref_time_days">
         <item>Monday</item>
         <item>Tuesday</item>
@@ -45,9 +55,10 @@
 
     <!-- Example settings for Notifications -->
     <string name="pref_header_notifications">Notifications</string>
-
+    <string name="pref_not_send">Send sms</string>
     <string name="pref_not_ring">Ring</string>
-    <string name="pref_not_call">Call</string>
-    <string name="pref_not_sms">Sms</string>
+    <string name="pref_not_sms">Sms number</string>
+    <string name="pref_not_defnumber">+380630000000</string>
+    <string name="btn_cancel">Cancel</string>
 
 </resources>

@@ -4,13 +4,13 @@
 
     <header
         android:fragment="com.geozone.SettingsActivity$PositionPreferenceFragment"
-        android:icon="@drawable/ic_info_black_24dp"
+        android:icon="@drawable/ic_position_black_24ps"
         android:title="@string/pref_header_position" />
 
     <header
         android:fragment="com.geozone.SettingsActivity$TimePreferenceFragment"
-        android:icon="@drawable/ic_sync_black_24dp"
-        android:title="@string/pref_header_data_sync" />
+        android:icon="@drawable/ic_time_black_24dp"
+        android:title="@string/pref_header_time" />
 
     <header
         android:fragment="com.geozone.SettingsActivity$NotificationPreferenceFragment"
